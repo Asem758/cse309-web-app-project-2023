@@ -1,0 +1,34 @@
+.content-container {
+    width: 70%;
+    margin: 1 auto;
+    text-align: left;
+}
+
+th {
+    background-color: #9722e5;
+    color: aliceblue;
+    padding: 10px;
+    border-color: darkred;
+}
+
+td {
+    text-align: center;
+    background-color: rgba(41, 29, 48, 0.176);
+    border-color: darkred;
+}
+
+tr:nth-child(even) {
+    background-color: #5d7a7a;
+    border-color: darkred;
+}
+
+.content-style {
+    width: 70%;
+    margin: 1 auto;
+    text-align: left
+}
+
+.table-style3 td {
+    text-align: center;
+    background-color: rgba(8, 26, 40, 0.47);
+}
