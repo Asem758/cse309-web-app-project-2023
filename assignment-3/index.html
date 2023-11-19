@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/sp.jpg" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Engage, Connect, Collaborate: Contact Us Today</h3>
+                <p class="text">
+                    Welcome to our hub for interaction and support. Questions, suggestions, or just connecting—your input drives innovation. Let's start a dialogue, collaborate, and shape our journey together. Your voice matters, connect with us!
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="images/lc-2.png" class="icon" alt="" />
+                        <p>Mada Center 8th floor 379 hudson st. New York, NY 1008 US</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/email-2.png" class="icon" alt="" />
+                        <p>contact@example.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="images/pn2.png" class="icon" alt="" />
+                        <p>+1900123689</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="store.php" method="POST">
+                    <h3 class="title" style="text-align: center">SEND US A MESSAGE</h3>
+                    <br />
+                    <div class="input-container">
+                        <input type="text " name="name " class="input" />
+                        <label for=" ">First Name</label>
+                        <span>First Name</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="text " name="name " class="input" />
+                        <label for=" ">Last Name</label>
+                        <span>Last Name</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email " name="email " class="input" />
+                        <label for=" ">Enter your email</label>
+                        <span>Enter your email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel " name="phone " class="input" />
+                        <label for=" ">Enter your phone number</label>
+                        <span>Enter your phone number</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message " class="input"></textarea>
+                        <label for=" ">Write us a message</label>
+                        <span>Write us a message</span>
+                    </div>
+
+                    <button type="submit " class="btn">SEND MESSAGE</button>
+                    <br />
+                    <br />
+                    <a href="display_data.php" class="btn-d"> Show Data </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src=" index.js "></script>
+</body>
+
+</html>
