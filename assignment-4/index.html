@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 DAY WEATHER</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="weather">
+        <input type="search" List="suggetions" class=" weather_search " placeholder="Your City ">
+        <datalist id="suggetions "></datalist>
+        <div class="weather_today ">
+            <div class="weather_details ">
+                <h2 class="weather_city ">City</h2>
+                <p class="weather_day ">Day</p>
+                <div class="weather_current ">
+                    <p class="weather__indicator weather__indicator--humidity "> <span class="value ">50</span>%</p>
+                    <p class="weather__indicator weather__indicator--wind "> <span class="value ">West, 5</span>m/s</p>
+                    <p class="weather__indicator weather__indicator--pressure "> <span class="value ">1050</span>hPa</p>
+                </div>
+            </div>
+            <img src="images/Clear-sky1.png " alt="Clear Sky " class="weather_image ">
+            <div class="weather_temperature "><span class="value ">+24</span> &deg;C</div>
+        </div>
+        <div class="weather_forecast ">
+            <article class="weather__forecast__item ">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="Clear Sky " class="weather__forecast__icon ">
+                <h3 class="weather__forecast__day "> Wednesday</h3>
+                <p class="weather__forecast__temperature "><span class="value ">8</span> &deg;C</p>
+            </article>
+            <article class="weather__forecast__item ">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="Clear Sky " class="weather__forecast__icon ">
+                <h3 class="weather__forecast__day "> Thursday</h3>
+                <p class="weather__forecast__temperature "><span class="value ">+6</span> &deg;C</p>
+            </article>
+            <article class="weather__forecast__item ">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="Clear Sky " class="weather__forecast__icon ">
+                <h3 class="weather__forecast__day "> Friday</h3>
+                <p class="weather__forecast__temperature "><span class="value ">+10</span> &deg;C</p>
+            </article>
+            <article class="weather__forecast__item ">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="Clear Sky " class="weather__forecast__icon ">
+                <h3 class="weather__forecast__day "> Saturday</h3>
+                <p class="weather__forecast__temperature "><span class="value ">+7</span> &deg;C</p>
+            </article>
+            <article class="weather__forecast__item ">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="Clear Sky " class="weather__forecast__icon ">
+                <h3 class="weather__forecast__day "> Sunday</h3>
+                <p class="weather__forecast__temperature "><span class="value ">+8</span> &deg;C</p>
+            </article>
+        </div>
+
+    </div>
+
+
+
+    <script src="Js/script.js "></script>
+</body>
+
+</html>
